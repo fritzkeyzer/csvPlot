@@ -7,13 +7,10 @@ Using https://plotly.com/javascript/
 <img src="https://github.com/fritzkeyzer/csvPlot/blob/master/example.gif" />
 
 ### How to run:
-Download CSVplot.zip
-
-Extract to a folder
-
-Run plot.exe
-
-You should see the following open in your browser:
+* Download CSVplot.zip
+* Extract to a folder
+* Run plot.exe
+* You should see the following open in your browser:
 
 <img src="https://github.com/fritzkeyzer/csvPlot/blob/master/screenshot.png">
 
@@ -45,6 +42,6 @@ var data = [{
 }];
 ```
 
-Refresh the page in your browser, changes to html, js, data or any other files in the folder will be refreshed
+Refreshing the page in your browser will refresh changes to html, js, data or any other files in the folder.
 
 Dont forget to close plot.exe when you're done :)
