@@ -30,6 +30,9 @@ var data = [{
 
 Run plot.exe
 
+<img src="https://github.com/fritzkeyzer/csvPlot/blob/master/screenshot.png">
+
+
 Dont forget to close plot.exe when you're done.
 
 Please refer to https://plotly.com/javascript/ for more examples and info
