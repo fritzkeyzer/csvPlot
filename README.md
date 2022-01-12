@@ -4,6 +4,7 @@ Using https://plotly.com/javascript/
 
 ## Quickly visualise csv data in an interactive way
 
+<img src="https://github.com/fritzkeyzer/csvPlot/blob/master/example.gif" />
 
 ### How to run:
 Download CSVplot.zip
@@ -47,7 +48,3 @@ var data = [{
 Refresh the page in your browser, changes to html, js, data or any other files in the folder will be refreshed
 
 Dont forget to close plot.exe when you're done :)
-
-Another example:
-
-<img src="https://github.com/fritzkeyzer/csvPlot/blob/master/example.gif" />
