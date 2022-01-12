@@ -50,4 +50,4 @@ Dont forget to close plot.exe when you're done :)
 
 Another example:
 
-<img src="https://github.com/fritzkeyzer/csvPlot/blob/master/demo.gif" />
+<img src="https://github.com/fritzkeyzer/csvPlot/blob/master/example.gif" />
