@@ -1,9 +1,9 @@
-#Simple CSV Plotter 
+# Simple CSV Plotter 
 
-##Quickly visualise csv data in an interactive way
+## Quickly visualise csv data in an interactive way
 
 
-###How to:
+### How to:
 Data is stored in 'data.csv'
 ```csv
 time,val1,val2
