@@ -1,10 +1,22 @@
 # Simple CSV Plotter 
 
+Using https://plotly.com/javascript/
+
 ## Quickly visualise csv data in an interactive way
 
 
-### How to:
-Download: plot.exe, plot.html & plot.js
+### How to run:
+Download CSVplot.zip
+
+Extract to a folder
+
+Run plot.exe
+
+You should see the following open in your browser:
+
+<img src="https://github.com/fritzkeyzer/csvPlot/blob/master/screenshot.png">
+
+### How to modify
 
 Store your in 'data.csv' eg:
 ```csv
@@ -16,9 +28,9 @@ time,val1,val2
 2022-01-11 00:00:00,74.56,16
 ```
 
-Keep these files in the same folder
 
-Edit plot.js to match column names
+Edit plot.js to match column names, edit styles, add subplots etc. 
+(check out https://plotly.com/javascript/ for more examples and info)
 
 ```javascript
 var data = [{
@@ -32,11 +44,10 @@ var data = [{
 }];
 ```
 
-Run plot.exe (will open your browser)
+Refresh the page in your browser, changes to html, js, data or any other files in the folder will be refreshed
 
-<img src="https://github.com/fritzkeyzer/csvPlot/blob/master/screenshot.png">
+Dont forget to close plot.exe when you're done :)
 
+Another example:
 
-Dont forget to close plot.exe when you're done.
-
-Please refer to https://plotly.com/javascript/ for more examples and info
+<img src="https://github.com/fritzkeyzer/csvPlot/blob/master/demo.gif" />
