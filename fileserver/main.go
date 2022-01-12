@@ -8,10 +8,9 @@ import (
 
 func main() {
 
-	log.Println("Starting server")
+	var url = "http://localhost:8080/plot.html"
 
-	var url = "http://127.0.0.1:8080/plot.html"
-
+	// open browser to http://localhost:8080/plot.html
 	err := exec.Command("rundll32", "url.dll,FileProtocolHandler", url).Start()
 	if err != nil {
 		log.Fatalln(err)
@@ -19,16 +18,17 @@ func main() {
 
 	http.Handle("/", cors(http.FileServer(http.Dir("."))))
 
-	log.Printf("localhost:8080/plot.html\n")
+	log.Println("Starting file server @ http://localhost:8080")
+	log.Println("Open http://localhost:8080/plot.html in your browser")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
 func cors(fs http.Handler) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
-		// do your cors stuff
-		// return if you do not want the FileServer handle a specific request
+		// add CORS header
 		w.Header().Set("Access-Control-Allow-Origin", "*")
 
+		// serve file
 		fs.ServeHTTP(w, r)
 	}
 }
