@@ -4,7 +4,9 @@
 
 
 ### How to:
-Data is stored in 'data.csv'
+Download: plot.exe, plot.html & plot.js
+
+Store your in 'data.csv' eg:
 ```csv
 time,val1,val2
 2022-01-07 00:00:00,45.56,12
@@ -13,6 +15,8 @@ time,val1,val2
 2022-01-10 00:00:00,75.56,15
 2022-01-11 00:00:00,74.56,16
 ```
+
+Keep these files in the same folder
 
 Edit plot.js to match column names
 
@@ -28,7 +32,7 @@ var data = [{
 }];
 ```
 
-Run plot.exe
+Run plot.exe (will open your browser)
 
 <img src="https://github.com/fritzkeyzer/csvPlot/blob/master/screenshot.png">
 
